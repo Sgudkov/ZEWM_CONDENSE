@@ -1,7 +1,7 @@
 # ZEWM_CONDENSE
  This example allow you to condense storage bin after confirm WT process.
  
- If your storage bin doesn't allow you to accept a goods in several separated HU,
+ If your storage bin doesn't allow you to accept a goods in several not nesting separated HU,
  you can use this example to condense recieving goods in destination bin without nesting HU.
  
  For avoid nesting you have to: 
