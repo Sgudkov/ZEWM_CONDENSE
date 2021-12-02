@@ -5,7 +5,7 @@
  you can use this example to condense recieving goods in destination bin without nesting HU.
  
  For avoid nesting you have to: 
- 1. Create FM with example [source code](https://github.com/Sgudkov/ZEWM_CONDENSE/blob/main/ZEWM_CONDESE.abap)
+ 1. Create RFC FM with example [source code](https://github.com/Sgudkov/ZEWM_CONDENSE/blob/main/ZEWM_CONDESE.abap)
  2. Implement BADI /SCWM/EX_CORE_CO_POST.
  3. In method POST create RFQ queue using FM TRFC_SET_QIN_PROPERTIES.
  4. Call created FM with parametrs "IN BACKGROUND TASK AS SEPARATE UNIT".
