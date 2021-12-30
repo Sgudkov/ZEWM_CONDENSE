@@ -1,5 +1,5 @@
 *"----------------------------------------------------------------------
-*"*"Локальный интерфейс:
+*"*"Local interface:
 *"  IMPORTING
 *"     VALUE(IV_GUID_HU) TYPE  /SCWM/GUID_HU
 *"     VALUE(IV_LGNUM) TYPE  /SCWM/LGNUM
