@@ -31,7 +31,7 @@
   " Transaction Manager
   /scwm/cl_tm=>cleanup(
     EXPORTING
-      iv_lgnum = "Put lgnum ).
+      iv_lgnum = iv_lgnum ).
 
   CALL FUNCTION '/SCWM/TO_LOG_GET_LOGNR'
     EXPORTING
@@ -50,10 +50,10 @@
   "Check gv_chenged below
   
   "Like this you able to get message tab
-  data(lt_bapiret) = lo_model->go_log->get_prot( ).
+  DATA(lt_bapiret) = lo_model->go_log->get_prot( ).
   
   "This parameter contains or doesn't an error 
-  data(lv_severity) = lo_model->go_log->get_severity( ).
+  DATA(lv_severity) = lo_model->go_log->get_severity( ).
 
   IF /scwm/cl_pack=>gv_changed IS NOT INITIAL.
     lo_model->save(
